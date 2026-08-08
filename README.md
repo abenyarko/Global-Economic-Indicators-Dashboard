@@ -44,13 +44,13 @@ Future iterations will connect directly to the World Bank API to automate data a
 
 Provides a high-level summary of global economic indicators including GDP, population, regional distribution, and historical trends.
 
-<img src="images/global-economic-dashboard.png" width="700">
+<img src="https://github.com/abenyarko/Global-Economic-Indicators-Dashboard/blob/main/global-economic-dashboard.png"width="700">
 
 ## Interactive Country Analysis
 
 Users can filter countries and explore detailed economic trends through interactive visualizations and drill-through functionality.
 
-<img src="images/global-economic-dashboard.png" width="700">
+<img src="https://github.com/abenyarko/Global-Economic-Indicators-Dashboard/blob/main/global-economic-dashboard-meta.png" width="700">
 
 # Skills Demonstrated
 
