@@ -24,6 +24,12 @@ This dashboard was developed to create an intuitive decision-support tool that a
 - World Bank Open Data
 - World Development Indicators (WDI)
 
+## Data Pipeline
+
+The dashboard currently utilizes World Bank economic indicators prepared for analysis in Power BI.
+
+Future iterations will connect directly to the World Bank API to automate data acquisition and create a repeatable ETL pipeline. This enhancement will eliminate manual data downloads, improve data freshness, and demonstrate modern analytics engineering practices by integrating automated data extraction, transformation, and loading (ETL) into the reporting workflow.
+
 ## Primary Indicators
 - GDP
 - GDP per Capita
@@ -56,3 +62,18 @@ Users can filter countries and explore detailed economic trends through interact
 - Interactive Dashboards
 - Executive Reporting
 - Data Storytelling
+
+# Technologies
+
+- Power BI
+- DAX
+- Power Query
+- World Bank API
+- Git
+- GitHub
+
+# Business Impact
+
+This dashboard demonstrates how publicly available economic data can be transformed into an interactive business intelligence solution that supports comparative analysis and executive reporting.
+
+The project illustrates best practices in dashboard design, interactive reporting, and communicating complex global datasets through accessible visualizations.
