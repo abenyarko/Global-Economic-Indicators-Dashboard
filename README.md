@@ -5,7 +5,7 @@ The project demonstrates how public economic data can be transformed into execut
 
 # Executive Summary
 
-This project presents an interactive Power BI dashboard designed to analyze global economic indicators using publicly available World Bank data. The dashboard enables users to compare countries and regions using key measures such as GDP, GDP per capita, population, and population density while exploring long-term global trends through interactive visualizations.
+An end-to-end Power BI analytics solution integrating multiple World Bank REST APIs with external economic datasets through Power Query and semantic modeling to analyze global economic performance, demographic trends, and regional development.
 
 # Business Problem
 
@@ -26,9 +26,18 @@ This dashboard was developed to create an intuitive decision-support tool that a
 
 ## Data Pipeline
 
-The dashboard currently utilizes World Bank economic indicators prepared for analysis in Power BI.
+This project demonstrates an enterprise-style Power BI architecture by integrating multiple live World Bank API endpoints with supporting datasets.
 
-Future iterations will connect directly to the World Bank API to automate data acquisition and create a repeatable ETL pipeline. This enhancement will eliminate manual data downloads, improve data freshness, and demonstrate modern analytics engineering practices by integrating automated data extraction, transformation, and loading (ETL) into the reporting workflow.
+Data Sources:
+
+- 🌍 World Bank Country API
+- 📈 GDP API
+- 💰 GDP Per Capita API
+- 👥 Population API
+- 📄 Country Metadata CSV
+- 📈 NASA Global Temperature Dataset
+
+All sources are transformed through Power Query, integrated into a centralized semantic model, and surfaced through an interactive Power BI dashboard.
 
 ## Primary Indicators
 - GDP
@@ -54,23 +63,27 @@ Users can filter countries and explore detailed economic trends through interact
 
 # Skills Demonstrated
 
-- Power BI
-- DAX
-- Power Query
-- Data Modeling
-- Geographic Visualization
-- Interactive Dashboards
-- Executive Reporting
-- Data Storytelling
+- REST API Integration
+- Power Query ETL
+- Semantic Modeling
+- Data Engineering
+- DAX Measures
+- KPI Development
+- Geographic Analytics
+- Time-Series Analysis
+- Interactive Reporting
 
 # Technologies
 
 - Power BI
 - DAX
 - Power Query
+- REST APIs
 - World Bank API
-- Git
-- GitHub
+- Semantic Modeling
+- Data Modeling
+- ETL
+- Geographic Visualization
 
 # Business Impact
 
